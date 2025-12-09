@@ -38,7 +38,7 @@ def read_file(filename):
 
 def edit_file(filename):        
     try:
-        with open('sample.txt','a') as f:
+        with open(filename,'a') as f:
             content=input('enter the content you want to add:')
             f.write(content + '\n')
             print(f'content added{filename} successfully')
