@@ -7,5 +7,5 @@ url=input("Enter the url:")
 qr=pyqrcode.create(url)
 qr.svg("qrcode.svg",scale=5)
 
-#show the qr code 
-qr.show('qrcode.svg')
+#show the qr code in terminal
+print(qr.terminal())
