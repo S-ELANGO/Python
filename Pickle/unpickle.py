@@ -1,3 +1,4 @@
+#unpickle the loaded data.pkl file
 import pickle
 
 with open('data.pkl','rb')as f:
