@@ -1,7 +1,7 @@
 import shutil
 from pathlib import Path
 
-target_dir = Path("/Users/elangosureshkumar/Desktop")
+target_dir = Path("")
 
 cat = {
     'Videos': ['mp4', 'mkv']
