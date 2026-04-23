@@ -6,4 +6,4 @@ with zipfile.ZipFile("documents.zip", "w") as zipf:
     for file in files:
         zipf.write(file)
 
-print("All files zipped")
+print("All files compressed successfully to documents.zip")
